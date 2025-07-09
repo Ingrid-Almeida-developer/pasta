@@ -23,3 +23,8 @@ button {
  background-color: #FF6F61;
 }
 
+.container {
+ display: block;
+ align-items: center;
+}
+
