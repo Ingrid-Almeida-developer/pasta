@@ -24,7 +24,7 @@ button {
 }
 
 .container {
- display: block;
+ display: inline;
  align-items: center;
 }
 
