@@ -1,15 +1,15 @@
 h2 {
- font-style: italic;
  color: #ADD8E6;
 }
 
 body {
+ font-size: 25px;
  background-color: #C8A2C8;
- display: flex;
- justify-content: center;
- align-items: center;
+ width: 100%;
+ font-family: italic;
+ text-align: center;
 }
-7
+
 h1 {
  color: #000000;
 }
@@ -24,7 +24,11 @@ button {
 }
 
 .container {
- display: inline;
+ display: block;
+ display: flex;
+ flex-direction: column;
  align-items: center;
+ justify-content: center;
+ width: 100%;
 }
 
