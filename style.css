@@ -24,8 +24,9 @@ p {
 button {
  background-color: #FF6F61;
  height: 150px;
- width: 210px;
+ width: 450px;
  border-radius: 75px;
+ font-size: 70px;
 }
 
 .container {
