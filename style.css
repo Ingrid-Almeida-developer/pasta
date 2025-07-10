@@ -3,7 +3,7 @@ h2 {
 }
 
 body {
- font-size: 25px;
+ font-size: 35px;
  background-color: #C8A2C8;
  width: 100%;
  font-family: italic;
@@ -12,11 +12,13 @@ body {
 
 h1 {
  color: #000000;
+ font-size: 40px;
 }
 
 p {
  font-style: italic;
  color: #ADD8E6;
+ font-size: 25px;
 }
 
 button {
@@ -30,5 +32,6 @@ button {
  align-items: center;
  justify-content: center;
  width: 100%;
+ flex-basis: auto;
 }
 
