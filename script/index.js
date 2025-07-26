@@ -1,7 +1,3 @@
-function main() {
- get_json();
-}
-
 function get_json() {
  let text_h1 = document.getElementById("value");
  fetch("https://raw.githubusercontent.com/henriquepb/populacao-brasil-api/main/populacao.json")
