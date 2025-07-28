@@ -1,8 +1,7 @@
 function get_json() {
- let text_h1 = document.getElementById("value");
- fetch("https://raw.githubusercontent.com/henriquepb/populacao-brasil-api/main/populacao.json")
+ fetch("https://api.open-meteo.com/v1/forecast?latitude=-23.55&longitude=-46.63&current_weather=true")
  .then(resposta => resposta.json())
- .then(dados => { document.getElementById("value").innerHTML = dados.populacao.valor.toLocaleString("pt-BR");});
+ .then(dados => { document.getElementById("value").innerHTML = dados.current_weather.temperature.toLocaleString("pt-BR");});
  .catch(erro => console.error("Erro em carregar dados", erro));
 }
 
